@@ -1,0 +1,72 @@
+.nav-bar {
+	background-color: antiquewhite;
+	height: 150px;
+	display: flex;
+    padding: 20px 36px;
+    align-items: center;
+	border-bottom-style: groove;
+	border-radius: 10px;
+}
+.nav-logo {
+	height: 150px;
+	margin-right: 50px;
+	margin-left: 50px;	
+}
+.title {
+	font-family: monospace;
+	color: rgb(89, 89, 89);
+	margin-right: auto;
+    font-weight: 700;
+    font-size: 40px;
+	margin-left: 50px;
+}
+.card {
+	margin-top: 30px;
+    font-size: 12px; 
+    display: flex;
+	align-items: center;   
+    flex-direction: row; 
+    position: relative;
+}
+.card--image {
+	border-style: double;
+	height: 400px;
+	width: 400px;
+	margin-block: 5px;
+	margin-left: 3%;
+    border-radius: 9px;
+    margin-bottom: 9px;
+}
+.card-stats {
+	margin-left: 3%;
+	font-family: 'Segoe UI';
+	font-size: 40px;
+}
+.location {
+	font-size: 30px;
+	color: indigo;
+}
+.anchor {
+	font-size: 22px;
+	color: gray;
+}
+.travel-destination {
+	font-family:'Segoe UI';
+	color: indigo;
+}
+.date {
+	font-size: 25px;
+	font-weight: bolder;
+}
+.description {
+	overflow: hidden;
+    text-overflow: ellipsis;
+	inline-size: 1000px;
+	font-size: 25px;
+	font-weight: lighter;
+}
+.main-div {
+	background-color: lightsteelblue;
+}
+
+
